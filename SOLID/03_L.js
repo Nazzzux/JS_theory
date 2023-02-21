@@ -46,6 +46,7 @@ openSecretDoor(new Backend())
 
 // =====================
 
+// создаем общий компонент с общей логикой
 class Component {
    // render() {
    //    return `<div>Component</div>`
