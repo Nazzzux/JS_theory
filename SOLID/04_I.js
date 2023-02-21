@@ -5,7 +5,6 @@ class Animal {
       this.name = name
    }
 
-//    вот такого и нужно избегать
    walk() {
       console.log(`${this.name} умеет ходить`)
    }
@@ -18,6 +17,8 @@ class Animal {
 }
 
 class Dog extends Animal {
+   
+//    вот такой перезаписи методов нам и нужно избегать
    fly() {
       return null
    }
