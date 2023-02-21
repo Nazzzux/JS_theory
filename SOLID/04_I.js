@@ -5,6 +5,7 @@ class Animal {
       this.name = name
    }
 
+//    вот такого и нужно избегать
    walk() {
       console.log(`${this.name} умеет ходить`)
    }
