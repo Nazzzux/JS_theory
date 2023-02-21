@@ -32,6 +32,7 @@ class News {
    }
 }
 
+// класс NewsPrinter принимает в себя одну новость и трансформирует ее в разные форматы для отображения
 class NewsPrinter {
    constructor(news) {
       this.news = news
