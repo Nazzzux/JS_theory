@@ -26,6 +26,9 @@ class Square extends Shape { // extends Shape - добавлено
 class Circle extends Shape {
    constructor(radius) {
       super()
+      
+      // если мы наследуемся от одного класса Shape, по тип фигуры нам не нужен, ибо у нас есть логика area у каждого отдельного класса.
+      
       // this.type = 'circle',
       this.radius = radius
    }
